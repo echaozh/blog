@@ -6,7 +6,7 @@ site: site.hs
 build: site
 	./site build
 
-preview: site
+preview: build
 	./site preview
 
 clean: site

@@ -5,7 +5,7 @@ body {
     width: 600px;
 }
 
-div#header {
+header {
     border-bottom: 2px solid black;
     margin-bottom: 30px;
     padding: 12px 0px 12px 0px;
@@ -19,11 +19,11 @@ div#logo a {
     text-decoration: none;
 }
 
-div#header #navigation {
+header #navigation {
     text-align: right;
 }
 
-div#header #navigation a {
+header #navigation a {
     color: black;
     font-size: 18px;
     font-weight: bold;
@@ -32,13 +32,12 @@ div#header #navigation a {
     text-transform: uppercase;
 }
 
-div#footer {
+footer {
     border-top: solid 2px black;
     color: #555;
     font-size: 12px;
     margin-top: 30px;
     padding: 12px 0px 12px 0px;
-    text-align: right;
 }
 
 h1 {
@@ -53,4 +52,16 @@ div.info {
     color: #555;
     font-size: 14px;
     font-style: italic;
+}
+
+footer span.credit {
+    float: right;
+}
+
+p {
+    margin:0 0 10px;
+}
+
+header #navigation .chosen {
+    color: RGB(128, 0, 0);
 }
