@@ -3,10 +3,10 @@
 cat <<EOF
 {-# LANGUAGE OverloadedStrings #-}
 
-import Text.Blaze.Html5
-import qualified Text.Blaze.Html5 as H
-import Text.Blaze.Html5.Attributes
-import qualified Text.Blaze.Html5.Attributes as A
+import Text.Blaze.XHtml5
+import qualified Text.Blaze.XHtml5 as H
+import Text.Blaze.XHtml5.Attributes
+import qualified Text.Blaze.XHtml5.Attributes as A
 import Text.Blaze.Html.Renderer.Pretty
 
 a' link = a ! href link

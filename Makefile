@@ -1,4 +1,4 @@
-names = test
+names = default
 hss = $(addsuffix .hs,$(addprefix template-build/,$(names)))
 templates = $(addsuffix .html,$(addprefix the-site/templates/,$(names)))
 
